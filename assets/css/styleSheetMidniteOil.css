@@ -1,5 +1,5 @@
 
-/** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
+/* Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp*/
 .overflow {
     overflow-x: auto;
 }
@@ -32,3 +32,26 @@ iframe.homepage {
     border-width: 15px;
     border-color: antiquewhite;
 }
+
+.grid {
+margin: 25px auto;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple {
+  background-color: purple;
+}
+
