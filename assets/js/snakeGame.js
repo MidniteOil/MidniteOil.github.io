@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const squares = document.querySelectorAll('.grid div')
+    const squares = document.querySelectorAll('.snakeGrid div')
     const scoreDisplay = document.querySelector('span')
     const startBtn = document.querySelector('.start')
   
